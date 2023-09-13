@@ -1,0 +1,154 @@
+body {
+    font-family: Lora;
+    background-color: rgb(0, 0, 0);
+    padding-top: 46px;
+    padding-bottom: 1500px;
+}
+
+div.top-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 50px;
+    background-color: white;
+    z-index: 50;
+}
+
+
+div.top-header a {
+    font-family: Roboto;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+}
+
+div.header-left-side {
+    display: flex;
+    flex-direction: row;
+}
+
+div.header-left-side a:hover,
+div.header-right-side a:hover {
+    font-weight: 500;
+}
+
+
+div.white-space {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+div.header-center-part a {
+    font-family: Lora;
+    font-weight: 500;
+    font-size: 35px;
+    margin: 0;
+    color: rgb(0, 0, 0);
+    transition: color 0.3s ease-in-out;
+    
+}
+
+div.header-center-part a:hover {
+    color: rgb(255, 0, 0);
+}
+
+div.header-right-side {
+    display: flex;
+}
+
+div.video-header {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+
+video.video {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+div.video-text {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    z-index: 1;
+    font-size: 70px;
+    bottom: 20px;
+    left: 100px;
+    right: 150px;
+    color: white;
+    align-items: center;
+}
+
+div.video-name {
+    font-size: 70px;
+    font-weight: 300;
+    transition: color 0.15s;
+}
+
+
+div.video-right a {
+    font-size: 25px;
+    font-family: Roboto;
+    text-decoration: none;
+    color: white;
+    transition: color 0.15s;
+}
+
+div.video-name:hover,
+div.video-right a:hover {
+    color: red;
+    cursor: pointer;
+}
+
+main.idk-man {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    background-color: white;
+    margin-top: 500px;
+    margin-left: 3%;
+    padding: 30px;
+    align-items: center;
+
+}
+
+div.img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    
+}
+
+div.txt-img-1 {
+    position: absolute;
+    color: white;
+    font-size: 150px;
+    z-index: 1;
+}
+
+div.txt-img-2 {
+    position: absolute;
+    color: red;
+    font-size: 150px;
+    z-index: 1;
+}
+
+img.table-img {
+    width: 686px;
+}

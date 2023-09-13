@@ -126,6 +126,10 @@ main.idk-man {
 
 }
 
+img.first-image {
+    width: 95%;
+}
+
 div.img {
     position: relative;
     display: flex;
@@ -151,4 +155,28 @@ div.txt-img-2 {
 
 img.table-img {
     width: 686px;
+}
+
+@media (max-width: 700px) {
+    img.table-img {
+        width: 95%;
+    }
+
+    div.header-left-side a,
+    div.header-right-side a {
+        font-size: 14px;
+    }
+
+    div.video-text {
+        left: 70px;
+
+    }
+
+    div.top-header {
+        padding: 3px 20px;
+
+    }
+
+
+
 }

@@ -127,7 +127,8 @@ img.first-image {
     width: 95%;
 }
 
-div.img {
+div.img,
+div.img-not-showing {
     position: relative;
     display: flex;
     justify-content: center;
@@ -160,7 +161,8 @@ img.table-img {
     }
 
     div.header-left-side,
-    div.header-right-side {
+    div.header-right-side,
+    div.img-not-showing {
         display: none;
     }
 
@@ -171,6 +173,12 @@ img.table-img {
     div.header-center-part {
         display: flex;
         align-items: center;
+    }
+
+    div.header-center-part a {
+        font-size: 27px;
+
+        
     }
 
     

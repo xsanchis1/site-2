@@ -157,7 +157,7 @@ img.table-img {
     width: 686px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 720px) {
     img.table-img {
         width: 95%;
     }
@@ -168,13 +168,21 @@ img.table-img {
     }
 
     div.video-text {
-        left: 70px;
+        left: 50px;
 
     }
 
     div.top-header {
-        padding: 3px 20px;
+        padding: 3px 15px;
 
+    }
+
+    div.txt-img-1 {
+        font-size: 75px;
+    }
+    
+    div.txt-img-2 {
+        font-size: 75px;
     }
 
 

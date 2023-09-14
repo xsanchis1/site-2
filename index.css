@@ -159,21 +159,21 @@ img.table-img {
         width: 95%;
     }
 
-    div.top-header a {
-        margin-right: 5px;
-        margin-left: 5px;
-
+    div.header-left-side,
+    div.header-right-side {
+        display: none;
     }
 
-    div.header-left-side a,
-    div.header-right-side a {
-        font-size: 12px;
+    div.top-header {
+        justify-content: center;
     }
 
-    div.header-center-part a {
-        font-size: 28px;
+    div.header-center-part {
+        display: flex;
+        align-items: center;
     }
 
+    
     div.video-text {
         left: 20px;
 

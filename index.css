@@ -117,13 +117,11 @@ div.video-right a:hover {
 main.idk-man {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 87%;
     background-color: white;
     margin-top: 500px;
-    margin-left: 3%;
     padding: 30px;
     align-items: center;
-
 }
 
 img.first-image {
@@ -191,7 +189,7 @@ img.table-img {
     
     div.video-text {
         align-items: end;
-        right: 50px;
+        right: 20px;
     }
     
     div.video-right  {

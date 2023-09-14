@@ -159,9 +159,19 @@ img.table-img {
         width: 95%;
     }
 
+    div.top-header a {
+        margin-right: 5px;
+        margin-left: 5px;
+
+    }
+
     div.header-left-side a,
     div.header-right-side a {
-        font-size: 14px;
+        font-size: 12px;
+    }
+
+    div.header-center-part a {
+        font-size: 28px;
     }
 
     div.video-text {
@@ -170,7 +180,7 @@ img.table-img {
     }
 
     div.top-header {
-        padding: 3px 15px;
+        padding: 3px 10px;
 
     }
 
@@ -203,9 +213,4 @@ img.table-img {
         
     }
 
-    div.top-header a {
-        margin-right: 7px;
-        margin-left: 7px;
-
-    }
 }

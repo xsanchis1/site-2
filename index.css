@@ -168,7 +168,7 @@ img.table-img {
     }
 
     div.video-text {
-        left: 50px;
+        left: 20px;
 
     }
 
@@ -185,6 +185,25 @@ img.table-img {
         font-size: 75px;
     }
 
+    div.video-name {
+        font-size: 50px;
+    }
+    
+    div.video-text {
+        align-items: end;
+        right: 50px;
+    }
+    
+    div.video-right  {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-bottom: 6px;
+    }
 
+    div.video-right a {
+        font-size: 20px;
+        
+    }
 
 }
